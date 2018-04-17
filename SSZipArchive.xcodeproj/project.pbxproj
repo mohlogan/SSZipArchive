@@ -63,9 +63,9 @@
 		373914341F000A000094DB3B /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 373913F91F0009310094DB3B /* sha1.c */; };
 		373914351F000A000094DB3B /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 373913FA1F0009310094DB3B /* sha1.h */; };
 		37952C311F63B6EF00DD6677 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 389869341D5BC30100F18782 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37952C321F63B6FB00DD6677 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE481C0DF7950004A2F1 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37952C321F63B6FB00DD6677 /* SSZipArchiveImp.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE481C0DF7950004A2F1 /* SSZipArchiveImp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37952C331F63B70000DD6677 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B423AE491C0DF7950004A2F1 /* SSZipArchive.m */; };
-		37952C341F63B71400DD6677 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE4A1C0DF7950004A2F1 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37952C341F63B71400DD6677 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE4A1C0DF7950004A2F1 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37952C351F63B75B00DD6677 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B423AE6E1C0DF83F0004A2F1 /* libz.tbd */; };
 		37952C361F63B76C00DD6677 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE471C0DF7950004A2F1 /* zip.h */; };
 		37952C371F63B76F00DD6677 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B423AE461C0DF7950004A2F1 /* zip.c */; };
@@ -135,14 +135,14 @@
 		37952C851F63BBC000DD6677 /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = 373913F81F0009310094DB3B /* pwd2key.h */; };
 		37952C861F63BBC000DD6677 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 373913F91F0009310094DB3B /* sha1.c */; };
 		37952C871F63BBC000DD6677 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 373913FA1F0009310094DB3B /* sha1.h */; };
-		37952C881F63BBD500DD6677 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE481C0DF7950004A2F1 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37952C881F63BBD500DD6677 /* SSZipArchiveImp.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE481C0DF7950004A2F1 /* SSZipArchiveImp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37952C891F63BBDA00DD6677 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B423AE491C0DF7950004A2F1 /* SSZipArchive.m */; };
-		37952C8B1F63BBE400DD6677 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE4A1C0DF7950004A2F1 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37952C8B1F63BBE400DD6677 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE4A1C0DF7950004A2F1 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37952C8C1F63BBED00DD6677 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B423AE6E1C0DF83F0004A2F1 /* libz.tbd */; };
 		37952C8D1F63BBF300DD6677 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 389869341D5BC30100F18782 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		389869351D5BC30100F18782 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 389869341D5BC30100F18782 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFF75A2D1C3727F000F450AC /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE4A1C0DF7950004A2F1 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFF75A2E1C37280200F450AC /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE481C0DF7950004A2F1 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFF75A2D1C3727F000F450AC /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE4A1C0DF7950004A2F1 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFF75A2E1C37280200F450AC /* SSZipArchiveImp.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE481C0DF7950004A2F1 /* SSZipArchiveImp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFF75A2F1C37280200F450AC /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B423AE491C0DF7950004A2F1 /* SSZipArchive.m */; };
 		AFF75A461C37282700F450AC /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE3F1C0DF7950004A2F1 /* crypt.h */; };
 		AFF75A471C37282700F450AC /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B423AE401C0DF7950004A2F1 /* ioapi.c */; };
@@ -159,9 +159,9 @@
 		B423AE681C0DF7950004A2F1 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE451C0DF7950004A2F1 /* unzip.h */; };
 		B423AE691C0DF7950004A2F1 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B423AE461C0DF7950004A2F1 /* zip.c */; };
 		B423AE6A1C0DF7950004A2F1 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE471C0DF7950004A2F1 /* zip.h */; };
-		B423AE6B1C0DF7950004A2F1 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE481C0DF7950004A2F1 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B423AE6B1C0DF7950004A2F1 /* SSZipArchiveImp.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE481C0DF7950004A2F1 /* SSZipArchiveImp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B423AE6C1C0DF7950004A2F1 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B423AE491C0DF7950004A2F1 /* SSZipArchive.m */; };
-		B423AE6D1C0DF7950004A2F1 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE4A1C0DF7950004A2F1 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B423AE6D1C0DF7950004A2F1 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE4A1C0DF7950004A2F1 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B423AE6F1C0DF83F0004A2F1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B423AE6E1C0DF83F0004A2F1 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
@@ -193,11 +193,11 @@
 		373913FD1F0009320094DB3B /* ioapi_mem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ioapi_mem.c; sourceTree = "<group>"; };
 		373913FE1F0009320094DB3B /* minishared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minishared.h; sourceTree = "<group>"; };
 		373913FF1F0009320094DB3B /* ioapi_mem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ioapi_mem.h; sourceTree = "<group>"; };
-		37952C261F63B50D00DD6677 /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37952C5E1F63BB7100DD6677 /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37952C261F63B50D00DD6677 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37952C5E1F63BB7100DD6677 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		389869341D5BC30100F18782 /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
-		AFF75A241C37279600F450AC /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B423AE1A1C0DF76A0004A2F1 /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF75A241C37279600F450AC /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B423AE1A1C0DF76A0004A2F1 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B423AE3D1C0DF7950004A2F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B423AE3F1C0DF7950004A2F1 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
 		B423AE401C0DF7950004A2F1 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
@@ -206,9 +206,9 @@
 		B423AE451C0DF7950004A2F1 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
 		B423AE461C0DF7950004A2F1 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
 		B423AE471C0DF7950004A2F1 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
-		B423AE481C0DF7950004A2F1 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		B423AE481C0DF7950004A2F1 /* SSZipArchiveImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchiveImp.h; sourceTree = "<group>"; };
 		B423AE491C0DF7950004A2F1 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
-		B423AE4A1C0DF7950004A2F1 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		B423AE4A1C0DF7950004A2F1 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
 		B423AE6E1C0DF83F0004A2F1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -287,10 +287,10 @@
 		B423AE1B1C0DF76A0004A2F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B423AE1A1C0DF76A0004A2F1 /* ZipArchive.framework */,
-				AFF75A241C37279600F450AC /* ZipArchive.framework */,
-				37952C261F63B50D00DD6677 /* ZipArchive.framework */,
-				37952C5E1F63BB7100DD6677 /* ZipArchive.framework */,
+				B423AE1A1C0DF76A0004A2F1 /* SSZipArchive.framework */,
+				AFF75A241C37279600F450AC /* SSZipArchive.framework */,
+				37952C261F63B50D00DD6677 /* SSZipArchive.framework */,
+				37952C5E1F63BB7100DD6677 /* SSZipArchive.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -301,9 +301,9 @@
 				389869341D5BC30100F18782 /* SSZipCommon.h */,
 				B423AE3D1C0DF7950004A2F1 /* Info.plist */,
 				B423AE3E1C0DF7950004A2F1 /* minizip */,
-				B423AE481C0DF7950004A2F1 /* SSZipArchive.h */,
+				B423AE481C0DF7950004A2F1 /* SSZipArchiveImp.h */,
 				B423AE491C0DF7950004A2F1 /* SSZipArchive.m */,
-				B423AE4A1C0DF7950004A2F1 /* ZipArchive.h */,
+				B423AE4A1C0DF7950004A2F1 /* SSZipArchive.h */,
 			);
 			path = SSZipArchive;
 			sourceTree = "<group>";
@@ -340,7 +340,7 @@
 				37952C4D1F63B7A000DD6677 /* brg_types.h in Headers */,
 				37952C551F63B7A000DD6677 /* pwd2key.h in Headers */,
 				37952C441F63B79900DD6677 /* aes.h in Headers */,
-				37952C321F63B6FB00DD6677 /* SSZipArchive.h in Headers */,
+				37952C321F63B6FB00DD6677 /* SSZipArchiveImp.h in Headers */,
 				37952C4C1F63B7A000DD6677 /* brg_endian.h in Headers */,
 				37952C491F63B7A000DD6677 /* aesopt.h in Headers */,
 				37952C381F63B77200DD6677 /* unzip.h in Headers */,
@@ -357,7 +357,7 @@
 				37952C3C1F63B77F00DD6677 /* crypt.h in Headers */,
 				37952C3D1F63B78100DD6677 /* minishared.h in Headers */,
 				37952C4F1F63B7A000DD6677 /* fileenc.h in Headers */,
-				37952C341F63B71400DD6677 /* ZipArchive.h in Headers */,
+				37952C341F63B71400DD6677 /* SSZipArchive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,12 +372,12 @@
 				37952C831F63BBC000DD6677 /* prng.h in Headers */,
 				37952C731F63BBBB00DD6677 /* zip.h in Headers */,
 				37952C7D1F63BBC000DD6677 /* brg_types.h in Headers */,
-				37952C881F63BBD500DD6677 /* SSZipArchive.h in Headers */,
+				37952C881F63BBD500DD6677 /* SSZipArchiveImp.h in Headers */,
 				37952C8D1F63BBF300DD6677 /* SSZipCommon.h in Headers */,
 				37952C761F63BBC000DD6677 /* aes_ni.h in Headers */,
 				37952C6A1F63BBBB00DD6677 /* ioapi_mem.h in Headers */,
 				37952C6C1F63BBBB00DD6677 /* minishared.h in Headers */,
-				37952C8B1F63BBE400DD6677 /* ZipArchive.h in Headers */,
+				37952C8B1F63BBE400DD6677 /* SSZipArchive.h in Headers */,
 				37952C741F63BBC000DD6677 /* aes.h in Headers */,
 				37952C711F63BBBB00DD6677 /* unzip.h in Headers */,
 				37952C811F63BBC000DD6677 /* hmac.h in Headers */,
@@ -399,9 +399,9 @@
 				01DB08731D88095600D335B9 /* SSZipCommon.h in Headers */,
 				3739142A1F000A000094DB3B /* brg_endian.h in Headers */,
 				373914271F000A000094DB3B /* aesopt.h in Headers */,
-				AFF75A2D1C3727F000F450AC /* ZipArchive.h in Headers */,
+				AFF75A2D1C3727F000F450AC /* SSZipArchive.h in Headers */,
 				373914351F000A000094DB3B /* sha1.h in Headers */,
-				AFF75A2E1C37280200F450AC /* SSZipArchive.h in Headers */,
+				AFF75A2E1C37280200F450AC /* SSZipArchiveImp.h in Headers */,
 				3739142F1F000A000094DB3B /* hmac.h in Headers */,
 				373914051F0009CC0094DB3B /* ioapi_mem.h in Headers */,
 				373914291F000A000094DB3B /* aestab.h in Headers */,
@@ -424,10 +424,10 @@
 				3739141A1F0009FF0094DB3B /* brg_types.h in Headers */,
 				373914221F0009FF0094DB3B /* pwd2key.h in Headers */,
 				373914101F0009E80094DB3B /* aes.h in Headers */,
-				B423AE6D1C0DF7950004A2F1 /* ZipArchive.h in Headers */,
+				B423AE6D1C0DF7950004A2F1 /* SSZipArchive.h in Headers */,
 				373914191F0009FF0094DB3B /* brg_endian.h in Headers */,
 				373914161F0009FF0094DB3B /* aesopt.h in Headers */,
-				B423AE6B1C0DF7950004A2F1 /* SSZipArchive.h in Headers */,
+				B423AE6B1C0DF7950004A2F1 /* SSZipArchiveImp.h in Headers */,
 				373914241F0009FF0094DB3B /* sha1.h in Headers */,
 				389869351D5BC30100F18782 /* SSZipCommon.h in Headers */,
 				3739141E1F0009FF0094DB3B /* hmac.h in Headers */,
@@ -448,9 +448,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37952C251F63B50D00DD6677 /* ZipArchive-tvos */ = {
+		37952C251F63B50D00DD6677 /* SSZipArchive-tvos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37952C2D1F63B50D00DD6677 /* Build configuration list for PBXNativeTarget "ZipArchive-tvos" */;
+			buildConfigurationList = 37952C2D1F63B50D00DD6677 /* Build configuration list for PBXNativeTarget "SSZipArchive-tvos" */;
 			buildPhases = (
 				37952C211F63B50D00DD6677 /* Sources */,
 				37952C221F63B50D00DD6677 /* Frameworks */,
@@ -461,14 +461,14 @@
 			);
 			dependencies = (
 			);
-			name = "ZipArchive-tvos";
+			name = "SSZipArchive-tvos";
 			productName = ZipArchive;
-			productReference = 37952C261F63B50D00DD6677 /* ZipArchive.framework */;
+			productReference = 37952C261F63B50D00DD6677 /* SSZipArchive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		37952C5D1F63BB7100DD6677 /* ZipArchive-watchos */ = {
+		37952C5D1F63BB7100DD6677 /* SSZipArchive-watchos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37952C651F63BB7100DD6677 /* Build configuration list for PBXNativeTarget "ZipArchive-watchos" */;
+			buildConfigurationList = 37952C651F63BB7100DD6677 /* Build configuration list for PBXNativeTarget "SSZipArchive-watchos" */;
 			buildPhases = (
 				37952C591F63BB7100DD6677 /* Sources */,
 				37952C5A1F63BB7100DD6677 /* Frameworks */,
@@ -479,14 +479,14 @@
 			);
 			dependencies = (
 			);
-			name = "ZipArchive-watchos";
+			name = "SSZipArchive-watchos";
 			productName = ZipArchive;
-			productReference = 37952C5E1F63BB7100DD6677 /* ZipArchive.framework */;
+			productReference = 37952C5E1F63BB7100DD6677 /* SSZipArchive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AFF75A231C37279600F450AC /* ZipArchive-Mac */ = {
+		AFF75A231C37279600F450AC /* SSZipArchive-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFF75A291C37279600F450AC /* Build configuration list for PBXNativeTarget "ZipArchive-Mac" */;
+			buildConfigurationList = AFF75A291C37279600F450AC /* Build configuration list for PBXNativeTarget "SSZipArchive-Mac" */;
 			buildPhases = (
 				AFF75A1F1C37279600F450AC /* Sources */,
 				AFF75A201C37279600F450AC /* Frameworks */,
@@ -497,14 +497,14 @@
 			);
 			dependencies = (
 			);
-			name = "ZipArchive-Mac";
+			name = "SSZipArchive-Mac";
 			productName = "ZipArchive-Mac";
-			productReference = AFF75A241C37279600F450AC /* ZipArchive.framework */;
+			productReference = AFF75A241C37279600F450AC /* SSZipArchive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B423AE191C0DF76A0004A2F1 /* ZipArchive-iOS */ = {
+		B423AE191C0DF76A0004A2F1 /* SSZipArchive-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B423AE221C0DF76A0004A2F1 /* Build configuration list for PBXNativeTarget "ZipArchive-iOS" */;
+			buildConfigurationList = B423AE221C0DF76A0004A2F1 /* Build configuration list for PBXNativeTarget "SSZipArchive-iOS" */;
 			buildPhases = (
 				B423AE151C0DF76A0004A2F1 /* Sources */,
 				B423AE161C0DF76A0004A2F1 /* Frameworks */,
@@ -515,9 +515,9 @@
 			);
 			dependencies = (
 			);
-			name = "ZipArchive-iOS";
+			name = "SSZipArchive-iOS";
 			productName = ZipArchive;
-			productReference = B423AE1A1C0DF76A0004A2F1 /* ZipArchive.framework */;
+			productReference = B423AE1A1C0DF76A0004A2F1 /* SSZipArchive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -545,7 +545,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B423AE141C0DF76A0004A2F1 /* Build configuration list for PBXProject "ZipArchive" */;
+			buildConfigurationList = B423AE141C0DF76A0004A2F1 /* Build configuration list for PBXProject "SSZipArchive" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -557,10 +557,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B423AE191C0DF76A0004A2F1 /* ZipArchive-iOS */,
-				AFF75A231C37279600F450AC /* ZipArchive-Mac */,
-				37952C251F63B50D00DD6677 /* ZipArchive-tvos */,
-				37952C5D1F63BB7100DD6677 /* ZipArchive-watchos */,
+				B423AE191C0DF76A0004A2F1 /* SSZipArchive-iOS */,
+				AFF75A231C37279600F450AC /* SSZipArchive-Mac */,
+				37952C251F63B50D00DD6677 /* SSZipArchive-tvos */,
+				37952C5D1F63BB7100DD6677 /* SSZipArchive-watchos */,
 			);
 		};
 /* End PBXProject section */
@@ -711,8 +711,8 @@
 				INFOPLIST_FILE = SSZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -737,8 +737,8 @@
 				INFOPLIST_FILE = SSZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -763,8 +763,8 @@
 				INFOPLIST_FILE = SSZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -792,8 +792,8 @@
 				INFOPLIST_FILE = SSZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -816,8 +816,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -838,8 +838,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -971,8 +971,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -996,8 +996,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziparchive.SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -1006,7 +1006,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37952C2D1F63B50D00DD6677 /* Build configuration list for PBXNativeTarget "ZipArchive-tvos" */ = {
+		37952C2D1F63B50D00DD6677 /* Build configuration list for PBXNativeTarget "SSZipArchive-tvos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37952C2B1F63B50D00DD6677 /* Debug */,
@@ -1015,7 +1015,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37952C651F63BB7100DD6677 /* Build configuration list for PBXNativeTarget "ZipArchive-watchos" */ = {
+		37952C651F63BB7100DD6677 /* Build configuration list for PBXNativeTarget "SSZipArchive-watchos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37952C631F63BB7100DD6677 /* Debug */,
@@ -1024,7 +1024,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFF75A291C37279600F450AC /* Build configuration list for PBXNativeTarget "ZipArchive-Mac" */ = {
+		AFF75A291C37279600F450AC /* Build configuration list for PBXNativeTarget "SSZipArchive-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFF75A2A1C37279600F450AC /* Debug */,
@@ -1033,7 +1033,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B423AE141C0DF76A0004A2F1 /* Build configuration list for PBXProject "ZipArchive" */ = {
+		B423AE141C0DF76A0004A2F1 /* Build configuration list for PBXProject "SSZipArchive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B423AE201C0DF76A0004A2F1 /* Debug */,
@@ -1042,7 +1042,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B423AE221C0DF76A0004A2F1 /* Build configuration list for PBXNativeTarget "ZipArchive-iOS" */ = {
+		B423AE221C0DF76A0004A2F1 /* Build configuration list for PBXNativeTarget "SSZipArchive-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B423AE231C0DF76A0004A2F1 /* Debug */,

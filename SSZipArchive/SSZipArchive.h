@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double SSZipArchiveVersionNumber;
 FOUNDATION_EXPORT const unsigned char SSZipArchiveVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ZipArchive/SSZipArchive.h>
-
-#import "SSZipArchiveImpl.h"
